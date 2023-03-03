@@ -37,7 +37,12 @@ class Dataloader:
             seq = seq_batch[i]
             seq += [lang_utils.word_index[self.config.pad_token]]*(max_len - len(seq))
             seq_batch[i] = seq
-        return seq_batch 
+        return seq_batch
+    
+    def texts_to_sequences(self, list_texts, lang_utils):
+        for i in range(len(list_texts)):
+            list_texts[i] = lang_utils.encode(list_texts[i])
+        return list_texts
         
     def dataset(self):
         src_train_lang = self.read_data(self.en_utils.train_path)
