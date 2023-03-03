@@ -13,12 +13,12 @@ from train_utils import Trainer
 
 config = Config()
 
-en_train_file_path = 'Dataset\Stanford-dataset\train.en.txt'
-vi_train_file_path = 'Dataset\Stanford-dataset\train.vi.txt'
-en_val_file_path = 'Dataset\Stanford-dataset\tst2012.en.txt'
-vi_val_file_path = 'Dataset\Stanford-dataset\tst2012.vi.txt'
-en_test_file_path = 'Dataset\Stanford-dataset\tst2013.en.txt'
-vi_test_file_path = 'Dataset\Stanford-dataset\tst2013.vi.txt'
+en_train_file_path = 'NMT-with-Seq2Seq\Neural-Machine-Translation\Dataset\Stanford-dataset\train.en.txt'
+vi_train_file_path = 'NMT-with-Seq2Seq\Neural-Machine-Translation\Dataset\Stanford-dataset\train.vi.txt'
+en_val_file_path = 'NMT-with-Seq2Seq\Neural-Machine-Translation\Dataset\Stanford-dataset\tst2012.en.txt'
+vi_val_file_path = 'NMT-with-Seq2Seq\Neural-Machine-Translation\Dataset\Stanford-dataset\tst2012.vi.txt'
+en_test_file_path = 'NMT-with-Seq2Seq\Neural-Machine-Translation\Dataset\Stanford-dataset\tst2013.en.txt'
+vi_test_file_path = 'NMT-with-Seq2Seq\Neural-Machine-Translation\Dataset\Stanford-dataset\tst2013.vi.txt'
 
 source_add = {'add_sos': True,
               'add_eos': True,
