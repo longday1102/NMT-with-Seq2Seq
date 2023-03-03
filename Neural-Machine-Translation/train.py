@@ -13,7 +13,7 @@ from train_utils import Trainer
 
 config = Config()
 
-en_train_file_path = '"/content/NMT-with-Seq2Seq/Neural-Machine-Translation/Dataset/train.en.txt"'
+en_train_file_path = '/content/NMT-with-Seq2Seq/Neural-Machine-Translation/Dataset/train.en.txt'
 vi_train_file_path = '/content/NMT-with-Seq2Seq/Neural-Machine-Translation/Dataset/train.vi.txt'
 en_val_file_path = '/content/NMT-with-Seq2Seq/Neural-Machine-Translation/Dataset/tst2012.en.txt'
 vi_val_file_path = '/content/NMT-with-Seq2Seq/Neural-Machine-Translation/Dataset/tst2012.vi.txt'
