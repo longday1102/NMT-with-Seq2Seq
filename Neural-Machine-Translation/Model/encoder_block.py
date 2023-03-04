@@ -7,10 +7,10 @@ class Encoder(tf.keras.Model):
         self.Embedding = Embedding(en_vocab_size,
                                    config.embedding_size)
         self.Bi_LSTM = Bidirectional(LSTM(config.hidden_units,
-                                   return_sequences = True,
-                                   return_state = True,
-                                   dropout = config.dropout),
-                                   merge_mode = 'sum')
+                                          return_sequences = True,
+                                          return_state = True,
+                                          dropout = config.dropout),
+                                         merge_mode = 'sum')
 
     def __call__(self, x):
         enc_embedding = self.Embedding(x)
