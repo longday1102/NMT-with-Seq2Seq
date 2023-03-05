@@ -34,7 +34,7 @@ To evaluate an NMT model, I use the [BLEU score](https://en.wikipedia.org/wiki/B
 | 50-60 | Very high quality, adequate, and fluent translations |
 | > 60 | Quality often better than human |
 
-My model achieved **22.21** score on the 2012 test set and **24.15** on the 2013 test set.         
+My model's BLEU score in the 2012 test set and 2013 test set is **22.21** and **24.15**.         
 ## Several factors affect model quality
 - Data quality is not high: as mentioned, the Stanford dataset is not high quality because of a number of several reasons: the number of sentences in dataset is small, the translation quality is not uniform,...                             
 - Language complexity: Vietnamese is a complex language because it has many unique and complex features in terms of vocabulary usage, grammar, and sentence structure.
