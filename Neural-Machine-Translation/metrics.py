@@ -40,5 +40,3 @@ class Evaluate:
             
         BLEU_score = self.BLEU(y_pred, y_true)
         return BLEU_score 
-
-    
