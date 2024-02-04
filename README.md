@@ -41,7 +41,7 @@ My model's BLEU score in the 2012 test set and 2013 test set is **22.21** and **
 - Computer resources are limited: Low GPU RAM. Therefore, during the preprocessing step, longer sentences than the initialized max_len must be truncated, leading to the loss of information and coherence within the sentence.
 - Model architecture: the Seq2Seq model often has difficulties in handling long-distance relationships between words in sentences, is limited in handling too long sentences, and challenges in matching input and output,...
 ## Why do I choose Seq2Seq?
-Currently, many models have given very good results in Machine Translation tasks such as [Transformer](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)), [BERT](https://en.wikipedia.org/wiki/BERT_(language_model)), [GPT-2](https://en.wikipedia.org/wiki/GPT-2), [GPT-3](https://en.wikipedia.org/wiki/GPT-3), and [T5](https://github.com/google-research/text-to-text-transfer-transformer). But for an NLP enthusiast like me, understanding and practicing old models like Seq2Seq will greatly improve my knowledge in this task. So this is the first model I choose to solve the Machine Translation task.   
+Currently, many models have given very good results in Machine Translation tasks such as [Transformer](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)), [GPT-2](https://en.wikipedia.org/wiki/GPT-2), [GPT-3](https://en.wikipedia.org/wiki/GPT-3), and [T5](https://github.com/google-research/text-to-text-transfer-transformer). But for an NLP enthusiast like me, understanding and practicing old models like Seq2Seq will greatly improve my knowledge in this task. So this is the first model I choose to solve the Machine Translation task.   
 
 
 Thank you a lot for the finding! 😊
